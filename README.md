@@ -1,5 +1,5 @@
 
-# Comunicación cliente servidor
+# Servidor concurrente | Sala de chat
 
 Existen dos archivos para cada una de las funcionalidades `cliente.py` y `server.py`, cada uno de ellos sirve para operar como su nombre lo indica.
 
@@ -24,7 +24,7 @@ y luego inicia un hilo con la funcion de manejar cliente que se encarga de recib
 ### Cliente 
 
 - Configuración:
-Se solicita el número de puerto al que desea conectarse que debe estar entre los valores `0 | 5000`.
+Se solicita el número de puerto al que desea conectarse que debe estar entrelos valores `0 | 5000`.
 Se solicita el nick o nombre de usuario.
 
 Durante la configuración si el usuario ingresa salir el programa se finaliza.
