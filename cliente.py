@@ -26,7 +26,7 @@ while not PUERTO:
         PUERTO = int(input_user)
         
         # Se deben respetar los valores detallados al inicios del programa en cuanto a rangos 0 a 5500.
-        if PUERTO < 0 or PUERTO > 5500:
+        if PUERTO <= 0 or PUERTO >= 5500:
             print('[CONFIG] El valor ingresado no se encuentra en el rango esperado (0 - 5500).\n')
             PUERTO = '' # Si ingresa un valor fuera de los rangos borramos el dato para que caiga de nuevo en el bucle
             
